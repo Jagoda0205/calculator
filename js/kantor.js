@@ -18,10 +18,11 @@
         }
     };
 
-    const updateResultText = (amount, result, currency) => {
+    const updateResultText = (result, currency) => {
         const resultElement = document.querySelector(".js-result");
-        resultElement.innerHTML = `${amount.toFixed(2)} PLN = ${result.toFixed} ${currency}`;
-    };
+        resultElement.innerHTML = `<strong>${result.toFixed(2)}</strong> ${currency}`;
+
+    }
 
     const onFormSubmit = (event) => {
         event.preventDefault();
