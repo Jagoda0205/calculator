@@ -1,5 +1,6 @@
 # Jagoda Lewińska - Cantor
 
+![Cantor](https://github.com/Jagoda0205/calculator/blob/main/image/share.png?raw=true)
 
 ## Description
 welcome to my simple currency calculator.
