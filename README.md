@@ -1,4 +1,4 @@
-# Jagoda Lewińska - my first website
+# Jagoda Lewińska - Cantor
 
 
 ## Description
