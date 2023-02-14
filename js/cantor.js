@@ -1,9 +1,9 @@
  
   {
-    const calculatorResult =(amount, currency) => {
-        const EUR = 4.6709;
-        const USD = 4.3970;
-        const CHF = 4.7437;
+    const calculateResult =(amount, currency) => {
+        const EUR = 4.7613;
+        const USD = 4.4424;
+        const CHF = 4.8153;
     
         switch (currency) {
             case "EUR":
@@ -18,12 +18,7 @@
         }
     };
 
-    const updateResultText = (result, currency) => {
-        const resultElement = document.querySelector(".js-result");
-        resultElement.innerHTML = `<strong>${result.toFixed(2)}</strong> ${currency}`;
-
-    }
-
+ 
     const onFormSubmit = (event) => {
         event.preventDefault();
         
@@ -34,7 +29,10 @@
         const amount = +amountElement.value;
         const currency = currencyElement.value;
     
-        const result = calculatorResult(amount, currency);
+        const result = calculateResult(amount, currency);
+
+        const resultElement = document.querySelector(".js-result");
+        resultElement.innerHTML = `<strong>${result.toFixed(2)}</strong> ${currency}`;
 
     };
     
