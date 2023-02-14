@@ -1,0 +1,41 @@
+.html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  ::after,
+  ::before {
+    box-sizing: inherit;
+  }
+
+  .body {
+    background-image: url(https://img.freepik.com/darmowe-zdjecie/streszczenie-pusty-ciemny-bialy-szary-gradient-z-oswietleniem-black-winiety-stale-studio-sciany-i-podlogi-tla-dobrze-wykorzystac-jako-tlo-tlo-pusty-bialy-pokoj-z-miejscem-na-tekst-i-obraz_1258-71887.jpg);
+    color: rgb(234, 232, 232);
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: medium;
+    max-width: 1000px;
+    padding: 25px 20px;
+    margin: 20px auto;
+}
+
+.container {
+    max-width: 650px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+.footer {
+  color: white;
+  margin: 25px 0px 5px;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 10px;
+  text-align: center;
+  background-color: #9d9c96ec;
+  box-shadow: 5px 15px 29px 0px #b7b7bc;
+  border-radius: 20px;
+  
+ }

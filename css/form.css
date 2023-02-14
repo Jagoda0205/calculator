@@ -10,8 +10,8 @@
     border-radius: 30px;
     border-color: rgb(155, 149, 149);
     border-style: inset;
-    background-color: rgba(155, 182, 116, 0.803);
-    box-shadow: 13px -3px 23px 12px #79c3b9;
+    background-color: rgb(166 172 167 / 37%);
+    box-shadow: 13px -3px 23px 12px #767676;
     padding: 15px;
     margin: 20px 0;
   }
@@ -19,17 +19,17 @@
   .form__legend {
     width: 100%;
     border: none;
-    background-color: rgb(221, 194, 159);
-    color: rgb(83, 67, 46);
+    background-color: rgb(151, 151, 147);
+    color: rgb(75, 55, 29);
     padding: 5px;
     border-radius: 45px;
     
   }
 
   .form__label {
-     color:rgb(19, 146, 146);
+     color:rgb(28, 40, 40);
     margin: 20px auto;
-    border: 5px solid rgb(228, 150, 150);
+    border: 5px solid rgb(185, 152, 152);
     border-radius: 30px;
     border-style: double;
     padding: 10px;
@@ -39,7 +39,7 @@
   }
 
   .form__labelText {
-    color:rgb(19, 146, 146);
+    color:rgb(2, 2, 2);
     margin: 20px auto;
     padding: 10px;
     font-family: 'Playfair Display', serif;
@@ -52,39 +52,42 @@
     border-radius: 30px;
     width: 200px;
     padding: 5px;
+    cursor: pointer;
   }
 
   .form__currency {
-    color: rgb(187, 10, 119);
+    color: rgb(68, 60, 65);
     width: 200px;
     padding: 5px;
     display: inline-block;
     font-weight: 700;
     margin-right: 5px;
     border-radius: 30px;
+    cursor: pointer;
   }
 
  .form__button {
     width: 100%;
     border: none;
-    background-color: rgb(172, 223, 174);
-    color: rgb(5, 17, 124);
+    background-color: rgb(221, 227, 221);
+    color: rgb(40, 40, 42);
     padding: 6px;
     border-radius: 45px;
-    box-shadow: 1px 1px 3px rgb(236, 163, 163);
+    cursor: pointer;
+
 }
 
 .form__button:hover {
-    background-color: hsl(0, 68%, 49%);
+    background-color: hsl(196, 32%, 72%);
 }
 
 .form__button:active {
-    background-color: hsl(0, 100%, 50%);
+    background-color: hsl(190, 50%, 79%);
 }
 
 
  .form__result {
-  color:rgb(154, 60, 54);
+  color:rgb(138, 99, 97);
   font-family: 'Playfair Display', serif;
   font-family: 'Source Sans Pro', sans-serif;
   margin: 20px auto;
@@ -95,12 +98,12 @@
  }
 
  .form__information {
-    color: rgb(22, 92, 120);
+    color: rgb(20, 22, 22);
     margin: 25px 0px 5px;
     padding: 10px;
     text-align: center;
-    background-color: #f2dfb1ec;
-    box-shadow: 5px 15px 29px 0px #9697c7;
+    background-color: #9d9d9d70;
+    box-shadow: 5px 15px 29px 0px #616161;
     border-radius: 20px;
 
    }
